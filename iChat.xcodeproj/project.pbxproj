@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		54DA72E71DB6CAEE00AAC9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72E61DB6CAEE00AAC9EA /* AppDelegate.swift */; };
-		54DA72E91DB6CAEE00AAC9EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72E81DB6CAEE00AAC9EA /* ViewController.swift */; };
 		54DA72EC1DB6CAEE00AAC9EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DA72EA1DB6CAEE00AAC9EA /* Main.storyboard */; };
 		54DA72EE1DB6CAEE00AAC9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DA72ED1DB6CAEE00AAC9EA /* Assets.xcassets */; };
 		54DA72F11DB6CAEE00AAC9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54DA72EF1DB6CAEE00AAC9EA /* LaunchScreen.storyboard */; };
+		54DA72FB1DB6CB2E00AAC9EA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72F81DB6CB2E00AAC9EA /* ChatViewController.swift */; };
+		54DA72FC1DB6CB2E00AAC9EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */; };
+		54DA72FD1DB6CB2E00AAC9EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54DA72E31DB6CAEE00AAC9EA /* iChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DA72E61DB6CAEE00AAC9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54DA72E81DB6CAEE00AAC9EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54DA72EB1DB6CAEE00AAC9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54DA72ED1DB6CAEE00AAC9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54DA72F01DB6CAEE00AAC9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54DA72F21DB6CAEE00AAC9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54DA72F81DB6CB2E00AAC9EA /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				54DA72E61DB6CAEE00AAC9EA /* AppDelegate.swift */,
-				54DA72E81DB6CAEE00AAC9EA /* ViewController.swift */,
+				54DA72F81DB6CB2E00AAC9EA /* ChatViewController.swift */,
+				54DA72F91DB6CB2E00AAC9EA /* LoginViewController.swift */,
+				54DA72FA1DB6CB2E00AAC9EA /* SignUpViewController.swift */,
 				54DA72EA1DB6CAEE00AAC9EA /* Main.storyboard */,
 				54DA72ED1DB6CAEE00AAC9EA /* Assets.xcassets */,
 				54DA72EF1DB6CAEE00AAC9EA /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54DA72E91DB6CAEE00AAC9EA /* ViewController.swift in Sources */,
+				54DA72FC1DB6CB2E00AAC9EA /* LoginViewController.swift in Sources */,
+				54DA72FB1DB6CB2E00AAC9EA /* ChatViewController.swift in Sources */,
+				54DA72FD1DB6CB2E00AAC9EA /* SignUpViewController.swift in Sources */,
 				54DA72E71DB6CAEE00AAC9EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
